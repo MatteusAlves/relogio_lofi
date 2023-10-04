@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500&family=Poppins:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Pixelify Sans';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-image: url(/assets/images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+    border-radius: 7px;
+    letter-spacing: 3px;
+}
+
+
+.relogio span {
+    font-weight: bold;
+    font-size: 60px;
+    color: black;
+}
+
+.relogio span.tempo {
+    font-size: 15px;
+}
